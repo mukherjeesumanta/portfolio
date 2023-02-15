@@ -5,7 +5,7 @@ import Head from 'next/head'
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import BackgroundCircles from '@/components/BackgroundCircles';
-
+import About from '../components/About';
 
 const Home : NextPage = () => {
   return (
@@ -24,6 +24,11 @@ const Home : NextPage = () => {
         {/* Hero */}
         <section id="hero">
           <Hero />
+        </section>
+
+        {/* Hero */}
+        <section id="about">
+          <About />
         </section>
       </div>
       
